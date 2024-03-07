@@ -1,28 +1,41 @@
 import Image from "next/image";
-import HeroSection from "./components/HeroSection";
-import GetStarted from "./components/GetStarted";
-import Trending from "./components/Trending";
+import HeroSection from "./components/Herosection/HeroSection";
+import GetStarted from "./components/Herosection/GetStarted";
+import Trending from "./components/Herosection/Trending";
 import OverView from "./components/OverView/OverView";
+import Tokenomics from "./components/Tokenomics/Tokenomics";
+import SentimentsBox from "./components/Sentments/SentimentsBox";
+import About from "./components/AboutBitcoin/About";
+import Sentments from "./components/Sentments/Sentments";
+import Team from "./components/Team/Team";
+import YoumayLike from "./components/youMayLike/YoumayLike";
 
 export default function Home() {
   return (
-    <main className="bg-gray-100 px-16  py-6">
-      <div className="flex gap-2 text-sm pb-4">
-        <h1>Cryptocurrency </h1>
-        {">>"}
-        <p className="font-medium">Bitcoin</p>
-      </div>
-      <div className="  grid grid-cols-6 gap-10">
-        <div className="col-span-4">
-          <HeroSection />
-          <OverView />
+    <section>
+      <main className="bg-gray-100 px-16  py-6">
+        <div className="flex gap-2 text-sm pb-4">
+          <h1>Cryptocurrency </h1>
+          {">>"}
+          <p className="font-medium">Bitcoin</p>
         </div>
+        <div className="  grid grid-cols-6 gap-10">
+          <div className="col-span-4">
+            <HeroSection />
+            <OverView />
+            <Sentments />
+            <About />
+            <Tokenomics />
+            <Team />
+          </div>
 
-        <div className="col-span-2 flex flex-col gap-4">
-          <GetStarted />
-          <Trending />
+          <div className="col-span-2 flex flex-col gap-4">
+            <GetStarted />
+            <Trending />
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <YoumayLike />
+    </section>
   );
 }
