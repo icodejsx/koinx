@@ -48,7 +48,7 @@ const About = () => {
 
         <div className="flex flex-col gap-3 py-6">
           <h1 className="font-bold text-xl">Already Holding Bitcoin?</h1>
-          <div className=" grid grid-cols-2 gap-8">
+          <div className=" lg:grid flex-col flex  grid-cols-2 gap-8">
             <Group
               src="/images/pic2.png"
               text="Calculate your Profits"

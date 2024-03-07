@@ -7,7 +7,7 @@ const Analyst = () => {
         <p className="font-bold text-xl text-[#44475B]">Analyst Estimates</p>
         <img src="/icons/note.png" className="" />
       </div>
-      <div className="flex gap-16">
+      <div className="flex lg:flex-row flex-col gap-5 justify-center lg:justify-start lg:gap-16">
         <div
           className="rounded-full flex items-center bg-[#EBF9F4] text-green-600
         text-[2rem] font-semibold h-32 w-32 justify-center"

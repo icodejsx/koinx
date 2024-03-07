@@ -13,13 +13,13 @@ import YoumayLike from "./components/youMayLike/YoumayLike";
 export default function Home() {
   return (
     <section>
-      <main className="bg-gray-100 px-16  py-6">
+      <main className="bg-gray-100 lg:px-16 px-4  py-6">
         <div className="flex gap-2 text-sm pb-2">
           <h1 className="text-textGray">Cryptocurrency </h1>
           {">>"}
           <p className="font-medium">Bitcoin</p>
         </div>
-        <div className="  grid grid-cols-6 gap-10">
+        <div className="  lg:grid grid-cols-6 gap-10">
           <div className="col-span-4">
             <HeroSection />
             <OverView />

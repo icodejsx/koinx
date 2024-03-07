@@ -13,7 +13,7 @@ const Group: React.FC<Props> = ({ bg, src, text }) => {
       style={{
         background: `${bg}`,
       }}
-      className="flex gap-5 items-center col-span-1 rounded-xl pr-16"
+      className="flex gap-5 items-center col-span-1 rounded-xl lg:pr-16"
     >
       <div className="p-2.5">
         <Image src={src} width={140} height={100} alt="" />

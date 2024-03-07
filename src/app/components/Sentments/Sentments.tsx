@@ -12,7 +12,7 @@ const Sentments = () => {
             <p className="font-bold text- text-[#44475B]">Key Events</p>
             <img src="/icons/note.png" className="" />
           </div>
-          <main className="grid grid-cols-2 text-xs gap-5">
+          <main className="lg:grid flex flex-col grid-cols-2 text-xs gap-5">
             <SentimentsBox
               src="/icons/blue.svg"
               title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat"
