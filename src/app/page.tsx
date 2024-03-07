@@ -2,7 +2,7 @@ import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import GetStarted from "./components/GetStarted";
 import Trending from "./components/Trending";
-import OverView from "./components/OverView";
+import OverView from "./components/OverView/OverView";
 
 export default function Home() {
   return (

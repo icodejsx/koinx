@@ -16,6 +16,8 @@ const config: Config = {
         mediumseagreen: "#14b079",
         "gray-1": "#0f152a",
         "primary-blue": "#0052fe",
+        "textGray": "#768396"
+
       },
     
       borderRadius: {
