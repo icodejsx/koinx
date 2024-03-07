@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="px-4 sm:px-8 md:px-16 py-2 flex items-center justify-between bg-white shadow-2xl">
       <div className="flex items-center">
-        <Image src="/icons/log.svg" width={100} height={100} alt="" />
+        <Image src="/icons/logoo.svg" width={100} height={100} alt="" />
       </div>
       <div className="hidden sm:flex font-bold gap-10 items-center">
         <Link href="">Crypto Taxes</Link>
