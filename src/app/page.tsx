@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <section>
       <main className="bg-gray-100 px-16  py-6">
-        <div className="flex gap-2 text-sm pb-4">
-          <h1>Cryptocurrency </h1>
+        <div className="flex gap-2 text-sm pb-2">
+          <h1 className="text-textGray">Cryptocurrency </h1>
           {">>"}
           <p className="font-medium">Bitcoin</p>
         </div>
